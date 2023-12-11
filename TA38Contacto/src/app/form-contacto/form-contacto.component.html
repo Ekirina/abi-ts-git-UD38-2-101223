@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Email</th>
+        <th scope="col">Mensaje</th>
+        <th scope="col">Respuesta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let contactos of listaContactos">
+        <td>{{[contactos.nombre]}}</td>
+        <td>{{[contactos.email]}}</td>
+        <td>{{[contactos.mensaje]}}</td>
+        <td>{{[contactos.respuesta]}}</td>
+      </tr>
+    </tbody>  
+  </table>
